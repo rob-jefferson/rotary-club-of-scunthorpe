@@ -1,0 +1,73 @@
+/* resets */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* styles */
+html {font-size: 14px; font-family: 'Open Sans Condensed', sans-serif;}
+body {background: #E7E7E8;}
+h1, h2, h3, h4, h5, h6 {text-transform: uppercase; font-weight: bold;}
+h1 {font-size: 2.5em; margin-bottom: 0.5em; color: #0c3c7c;}
+h2 {font-size: 2em; margin-bottom: 0.5em;}
+h3 {font-size: 1.75em; margin-bottom: 0.5em;}
+h4 {font-size: 1.5em; margin-bottom: 0.5em;}
+address {margin-bottom: 1em;}
+p {margin-bottom: 1em; font-size: 1.25em; line-height: 1.1;}
+
+header#page-header nav {clear: both; background: #E7E7E8; padding: 1em;}
+header#page-header h1 {background: #fff; margin: 0px; padding: 0px;}
+header#page-header span {visibility: hidden; margin: 0px; padding: 0px;}
+header#page-header ul>li {display: inline; padding-right: 1em;}
+header#page-header ul>li:last-of-type {display: inline; padding-right: 0;}
+
+footer#page-footer {clear: both; background-color: #0050a2; color: #fff; padding: 1em;}
+footer#page-footer h1 {color: #fff; font-weight: 700}
+footer#page-footer a {font-weight: bold; color: #fff;}
+
+main > header {background: #fff; margin-bottom: 1em; padding: 3em 1em;}
+main > section {background: #fff; box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12); margin-bottom: 1em; padding: 1em;}
+main section h2 {color: #019fcb;}
+header.banner {background: url("images/disability-games.jpg") no-repeat; background-size: cover;}
+.main-header-text {color: #fff !important; background-color: rgba(0, 0, 0, 0.75); padding: 1em; }
+.main-header-text h1 {color: #fff;}
+.main-header-text a {color: #fff; font-weight: 700;}
